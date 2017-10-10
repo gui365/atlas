@@ -1,0 +1,227 @@
+html {
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+/* --------------- Header --------------- */
+#logo {
+  height: 2.5rem;
+}
+
+#logo-name {
+  font-family: "Lobster Two";
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
+  color: black;
+}
+
+.main-div {
+  display: flex;
+  width: 100%;
+  /*border: 1px green solid;*/
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+
+}
+
+.header {
+  position: fixed;
+  background-color: rgba(255, 255, 255,0.9);
+  z-index: 20;
+}
+
+.hd-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  /*border: 1px yellow solid;*/
+}
+
+.hd-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  /*border: 1px red solid;*/
+}
+
+.hd-nav a {
+  color: black;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+
+/* --------------- Content --------------- */
+.content {
+  display: flex;
+  padding-top: 4.5rem;
+  background-image: url(../resources/images/content.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 30px solid rgb(22, 155, 227);
+}
+
+.cn-action {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+  color: white;
+  text-align: center;
+  padding: 0 1rem 1.5rem 1rem;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  transform: rotate(-3deg);
+}
+
+.cn-action-bt {
+  text-align: center;
+
+  margin-top: 3.5rem;
+  font-size: 1rem;
+}
+
+#word-world {
+  font-family: "Pacifico";
+
+  color: rgb(22, 155, 227);
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 2.7rem;
+  margin: 1.5rem 0;
+}
+
+
+#bt-buy {
+  background-color: black;
+
+  font-weight: bold;
+  margin: 1.5rem 3rem;
+  padding: 0.5rem 2rem;
+  border: 1px white solid;
+  border-radius: 25px;
+
+}
+
+#bt-buy:hover {
+  background-color: rgb(22, 155, 227);
+  border: 1px solid black;
+}
+
+#bt-gift {
+  background-color: rgba(255,255,255,0.2);
+  padding: 0.5rem 1rem;
+  border: 1px white dashed;
+  margin: 1.5rem 3rem;
+}
+
+#bt-gift:hover {
+  background-color: rgba(22, 155, 227,0.5);
+  border: 1px dashed black;
+}
+
+.cn-action-bt a {
+  text-decoration: none;
+  color: white;
+}
+
+.trip {
+  margin: 1rem 1rem;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.trip-text {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem;
+}
+
+.trip-button {
+  width: 25%;
+  text-align: center;
+  background-color: rgb(109, 83, 135);
+  padding: 0.5rem 0.5rem;
+  margin: 0.3rem 0.3rem;
+  border-radius: 25px;
+}
+
+.trip-button:hover {
+  background-color: rgb(102, 0, 204);
+}
+
+.trip-button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.rio {
+  border: 2px solid white;
+  background-image: url(../resources/images/rio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.amsterdam {
+  border: 2px solid white;
+  background-image: url(../resources/images/amsterdam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paris {
+  border: 2px solid white;
+  background-image: url(../resources/images/paris.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.options {
+  border-bottom: 30px solid rgb(109, 83, 135);
+  background-color: rgba(109, 83, 135, 0.25);
+}
+
+h1 .trip-headline {
+
+  margin: 1rem 0 0 0;
+}
+
+.trip-headline {
+  text-align: center;
+}
+
+#word-travel {
+  font-family: "Pacifico";
+
+  color: rgb(109, 83, 135);
+}
